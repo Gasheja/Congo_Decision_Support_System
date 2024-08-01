@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Congo Decision Support System</title>
+    <link rel="stylesheet" href="data.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/800px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png"
+          alt="DRC Flag"
+          class="logo"
+        />
+        <h1>Congo Decision Support System</h1>
+        <nav>
+          <a href="index.html" class="button">Home</a>
+        </nav>
+      </div>
+    </header>
+    <main class="data-entry-container">
+      <section class="data-entry">
+        <h2>Data Entry</h2>
+        <form action="/submit_data" method="post">
+          <label for="country">Country:</label>
+          <select id="country" name="country" required>
+            <option value="rwanda">DRC</option>
+            <!-- <option value="kenya">Kenya</option>
+            <option value="uganda">Uganda</option> -->
+            <!-- Add more countries as needed -->
+          </select>
+
+          <label for="Collector_name">Collector's name:</label>
+          <input
+            type="text"
+            id="Collector_name"
+            name="Collector's name"
+            required
+          />
+
+          <label for="Collector_ID">Collector's ID:</label>
+          <input
+            type="number"
+            id="Collector_ID"
+            name="Collector's ID"
+            required
+          />
+
+          <label for="Province">Province:</label>
+          <input type="text" id="Province" name="Province" required />
+
+          <label for="Territory">Territory:</label>
+          <input type="text" id="Territory" name="Territory" required />
+
+          <label for="Respondent_name">Respondent's name:</label>
+          <input
+            type="text"
+            id="Respondent_name"
+            name="Respondent's name"
+            required
+          />
+
+          <label for="Sex">Sex:</label>
+          <input type="text" id="Sex" name="Sex" />
+
+          <label for="age">age:</label>
+          <textarea id="age" name="age" required></textarea>
+          <label for="Infrastructure"
+            >which Infratructure would like the government to build for you
+            first?:</label
+          >
+          <select id="Infrastructure" name="Infrastructure" required>
+            <option value="Healthcare facilities">Healthcare facilities</option>
+            <option value="Educational Institutions">
+              Educational Institutions
+            </option>
+            <option value="Roads and Transportation Networks">
+              Roads and Transportation Networks
+            </option>
+            <option value="Electricity and Energy Supply">
+              Electricity and Energy Supply
+            </option>
+            <option value="Clean Water and Sanitation Systems">
+              Clean Water and Sanitation Systems
+            </option>
+            <option value="Internet and Communication Infrastructure">
+              Internet and Communication Infrastructure
+            </option>
+            <!-- Add more countries as needed -->
+          </select>
+
+          <button type="submit" class="btn-submit">Submit Data</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="contact-info">
+          <h3>Contact Info</h3>
+          <p>Email: cdss@Congo.com</p>
+          <p>Phone: +243 456 7890</p>
+        </div>
+        <div class="address">
+          <h3>Address</h3>
+          <p>123 Cdss St, Decision maker, DRC</p>
+        </div>
+        <div class="social-media">
+          <h3>Follow Us</h3>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
