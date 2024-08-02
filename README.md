@@ -4,19 +4,14 @@ Eventhough there are other contributing factors to the ongoing conflict in the e
 # Main features
 # Sign up
 
-User Registration: This feature allows new users to register and create an account on the Congo Decision Support System application.
-
-Role Based Classification: During registration, users are classified based on their roles such as Local user, Government Officer, Data Admin, Data Collector, Data Analyser.
+1. User Registration: This feature allows new users to register and create an account on the Congo Decision Support System application.
+2. Role Based Classification: During registration, users are classified based on their roles such as Local user, Government Officer, Data Admin, Data Collector, Data Analyser.
 
 # Sign In
 
-Authentication and Authorization: This feature ensures that users can securely log in to the application.
-Access Privileges: Depending on their roles, users will have different levels of access to various features:
-Data Entry
-Visualize Data
-Generate Reports
-View Interventions Suggested
-Provide feedback
+1. Authentication and Authorization: This feature ensures that users can securely log in to the application.
+2. Access Privileges: Depending on their roles, users will have different levels of access to various features:
+Data Entry, Visualize Data, Generate Reports, View Interventions Suggested, Provide feedback
 
 # Steps to follow to get the project running are:
 1. Open the link to the project to get started
