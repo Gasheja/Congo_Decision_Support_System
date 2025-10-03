@@ -21,3 +21,7 @@ Data Entry, Visualize Data, Generate Reports, View Interventions Suggested, Prov
 5. After clicking the login button, you be directed to the Data Entry page, then fill in the space provided there as required to collect the data, then click submit button to store the data in the database of this platform.
 6. After you submit then click the home button which will take you to the home page where you can visualize data, generate report, export report, interventions suggested, and where you can provide feed back.
 7. Once you done, then click the logout button to exit the system.
+
+# Important Links
+
+GitHub repo: https://github.com/Gasheja/Congo_Decision_Support_System
